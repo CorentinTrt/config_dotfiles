@@ -1,0 +1,13 @@
+[alias]
+	gb = git branch
+
+[pull]
+	rebase = false
+
+[core]
+	pager = cat
+
+[init]
+	defaultBranch = main
+
+[test]
