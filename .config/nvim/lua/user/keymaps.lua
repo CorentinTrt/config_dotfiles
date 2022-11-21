@@ -18,8 +18,8 @@ keymap.set('n', 'dw', 'vb"_d')
 keymap.set('i', '<A-BS>', '<C-w>')
 
 -- [ Inverse block jump ]
-keymap.set('n', '{', '}')
-keymap.set('n', '}', '{')
+keymap.set('', '{', '}')
+keymap.set('', '}', '{')
 
 -- [ Tabs ]
 keymap.set('n', 'te', ':tabedit<Return>', { silent = true })
