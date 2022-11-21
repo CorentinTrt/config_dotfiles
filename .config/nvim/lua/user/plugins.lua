@@ -61,6 +61,7 @@ packer.startup(function(use)
   -- [ File finder / browser ]
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
+  use 'nvim-telescope/telescope-media-files.nvim'
 
   -- [ Formatting ]
   use 'MunifTanjim/prettier.nvim' -- Prettier plugin for Neovim's built-in LSP client
