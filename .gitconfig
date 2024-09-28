@@ -1,13 +1,33 @@
-[alias]
-	gb = git branch
-
 [pull]
 	rebase = false
 
 [core]
-	pager = cat
+	pager = less -FX
+	filemode = false
+	autocrlf = input
 
 [init]
 	defaultBranch = main
 
-[test]
+[user]
+	email = corentintruffaut@gmail.com
+	name = CorentinTrt
+
+[push]
+	autoSetupRemote = true
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[diff]
+	tool = nvimdiff
+[difftool]
+  	prompt = false
+
+[merge]
+	tool = nvimdiff
+[mergetool]
+    prompt = false
