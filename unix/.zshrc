@@ -48,7 +48,7 @@ parse_git_branch() {
 }
 
 setopt PROMPT_SUBST
-export PROMPT='${COLOR_USR}%n ${COLOR_DEF}| ${COLOR_DIR}%d $(parse_git_branch)${COLOR_DEF}${NEWLINE}%% '
+export PROMPT='${COLOR_USR}%n ${COLOR_DEF}| ${COLOR_DIR}%d $(parse_git_branch)${COLOR_DEF}${NEWLINE}%\> '
 # -- Prompt end --
 
 
@@ -89,3 +89,10 @@ esac
 
 
 
+
+# bun completions
+[ -s "/Users/mac-Z28CTRUF/.bun/_bun" ] && source "/Users/mac-Z28CTRUF/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
