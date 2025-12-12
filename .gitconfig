@@ -9,10 +9,6 @@
 [init]
 	defaultBranch = main
 
-[user]
-	email = corentintruffaut@gmail.com
-	name = CorentinTrt
-
 [push]
 	autoSetupRemote = true
 
