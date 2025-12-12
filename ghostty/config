@@ -1,0 +1,16 @@
+# Co's Ghostty config
+# Updated at 2025.02.17
+
+# ----------
+
+# Reload configuration while running default : Command/Control + Shift + comma
+# Not all config options can be reloaded while running; some only apply to new windows and others may require a full restart to take effect.
+
+font-family = SpaceMono Nerd Font Mono
+
+background-blur = true
+background-opacity = 0.5
+
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
