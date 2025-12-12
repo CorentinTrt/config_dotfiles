@@ -1,8 +1,6 @@
 # Co's zsh config
 # Updated at 2025.02.17
 
-# Suitable for Warp integration
-
 # ----------
 
 # -- Aliases --
@@ -35,6 +33,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# vscode path
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+# path
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
