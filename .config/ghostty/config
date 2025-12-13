@@ -8,8 +8,9 @@
 
 font-family = SpaceMono Nerd Font Mono
 
+background = #3c3836
 background-blur = true
-background-opacity = 0.5
+background-opacity = 0.85
 
 window-padding-x = 10
 window-padding-y = 10
