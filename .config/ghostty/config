@@ -12,6 +12,4 @@ background = #3c3836
 background-blur = true
 background-opacity = 0.85
 
-window-padding-x = 10
-window-padding-y = 10
 window-padding-balance = true
